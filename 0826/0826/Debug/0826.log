@@ -1,0 +1,20 @@
+﻿生成启动时间为 2019/8/26 23:02:14。
+     1>项目“F:\C语言\0826\0826\0826.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\新建文件夹\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main3.cpp main4.cpp
+         main4.cpp
+         main3.cpp
+     1>f:\c语言\0826\0826\main3.cpp(7): warning C4172: 返回局部变量或临时变量的地址
+         正在生成代码...
+       Link:
+         F:\新建文件夹\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\C语言\0826\Debug\0826.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\C语言\0826\Debug\0826.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\C语言\0826\Debug\0826.lib" /MACHINE:X86 Debug\main.obj
+         Debug\main2.obj
+         Debug\main3.obj
+         Debug\main4.obj
+     1>main4.obj : error LNK2005: _main 已经在 main2.obj 中定义
+     1>F:\C语言\0826\Debug\0826.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“F:\C语言\0826\0826\0826.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.70

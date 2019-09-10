@@ -50,7 +50,7 @@ int add(int a, int b)
 	return a + b;
 }
 
-int main()
+int main1()
 {
 	cout << add(2, 'a') << endl;
 

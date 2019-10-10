@@ -37,8 +37,8 @@ public:
 			m_qu1.pop();
 		}
 		int tmp = m_qu1.front();
-		m_qu2.push(m_qu1.front());
-		m_qu1 = m_qu2;
+		/*m_qu2.push(m_qu1.front());
+		m_qu1 = m_qu2;*/
 		return tmp;
 	}
 };
